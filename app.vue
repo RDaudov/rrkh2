@@ -21,4 +21,10 @@ section, form {
 h4 {
     border-bottom: 1px solid grey;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 0 5px;
+}
 </style>

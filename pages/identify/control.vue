@@ -28,9 +28,9 @@
         <label for="race">Раса</label>
         <select name="race">
             <option value="caucasoid" selected>Кавказоидная</option>
-            <option value="mongolian">Монголоидная</option>
+            <option value="mongolian">Афроамерианец</option>
+            <option value="asian">Азиат</option>
         </select>
-
     </form>
 </template>
 <style scoped>

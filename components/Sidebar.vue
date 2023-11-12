@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="sidebar">
     <ul class="menu">
     <li class="link"><NuxtLink to="/identify">Данные</NuxtLink></li>
     <li class="link"><NuxtLink to="/background">Предшествующие данные</NuxtLink></li>
@@ -18,7 +18,7 @@
 </template>
 
 <style>
-.wrapper {
+.sidebar {
   display: flex;
   flex-direction: column;
 }

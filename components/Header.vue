@@ -4,7 +4,7 @@ import { Header } from '#build/components';
   <header class="header">
     <NuxtLink to="/" class="logo">LOGO</NuxtLink>
     <div class="burger-wrap">
-      <Burger @click="isActive = !isActive" class="{active: isActive}"/>
+      <Burger @click="isActive = !isActive" :class="{active: isActive}"/>
     </div>
     <main-menu class="main-menu" v-if="isActive"/>
   </header>

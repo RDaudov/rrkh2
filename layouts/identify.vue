@@ -11,9 +11,4 @@
     display: flex;
     justify-content: flex-start;
 }
-a {
-    color: black;
-    text-decoration: none;
-    padding: 0 5px;
-}
 </style>
