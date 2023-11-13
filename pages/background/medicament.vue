@@ -2,7 +2,7 @@
     <fieldset class="checkbox">
         <legend>Кардиологические препараты</legend>
         <div>
-            <input type="checkbox">
+            <input type="checkbox" id="no">
             <label for="no">Нет</label>
         </div>
         <div>
