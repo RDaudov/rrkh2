@@ -2,7 +2,7 @@
 import { Burger } from '#build/components';
 <template>
   <nav class="navbar">
-    <Burger />
+    <slot/>
     <ul class="nav-left">
         <li class="item">
             <b>ПАЦИЕНТ:</b>
@@ -21,7 +21,6 @@ import { Burger } from '#build/components';
         <button>1</button>
         <button>2</button>
     </div>
-
 </nav>
 </template>
 

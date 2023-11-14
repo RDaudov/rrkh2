@@ -1,5 +1,5 @@
 <template>
-  <button class="burger" :class="{ active: isActive}" @click="isActive = !isActive">
+  <button class="burger">
     <span></span>
   </button>
 </template>
@@ -7,12 +7,6 @@
 <script>
 export default {
   name: "BurgerMenu",
-  
-  data() {
-    return {
-      isActive: false
-    }
-  }
 };
 </script>
 
