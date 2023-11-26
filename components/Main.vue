@@ -52,21 +52,22 @@ export default {
   width: 100%;
   height: 100vh;
   display: flex;
-  background-color: rgba($color: #000000, $alpha: .3);
-  transition: 1s;
+  background-color: rgba($color: #000000, $alpha: 0);
   transform: translateX(-100%);
+  transition: 
+  transform .5s, 
+  background-color 1s;
     &.active{
             transform: translateX(0%);
+            background-color: rgba($color: #000000, $alpha: .3);
         }
  }
 
- .sidebar-wrapper.active {
- }
  .main-inner {
     width: 100%;
     height: 100vh;
     transform: translateX(0%);
-    transition: 1s;
+    transition: .5s;
         &.active{
             transform: translateX(60%);
         }
