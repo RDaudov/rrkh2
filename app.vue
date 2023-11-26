@@ -11,7 +11,6 @@
 .container {
   width: 392px;
   margin: auto;
-  height: calc(100vh - 70px);
 }
 
 section, form {
