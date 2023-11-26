@@ -46,17 +46,17 @@ export default {
 
  .sidebar-wrapper {
     position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 99;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  background-color: rgba($color: #000000, $alpha: 0);
-  transform: translateX(-100%);
-  transition: 
-  transform .5s, 
-  background-color 1s;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgba($color: #000000, $alpha: 0);
+    transform: translateX(-100%);
+    transition: 
+    transform .5s, 
+    background-color 1s;
     &.active{
             transform: translateX(0%);
             background-color: rgba($color: #000000, $alpha: .3);
@@ -65,9 +65,10 @@ export default {
 
  .main-inner {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 70px);
     transform: translateX(0%);
     transition: .5s;
+    overflow: scroll;
         &.active{
             transform: translateX(60%);
         }
