@@ -16,6 +16,21 @@ li {
     list-style: none;
 }
 
-input, select {
-    border:1px solid red;
+input {
+    height: 15px;
+    padding: 5px;
+}
+
+select {
+    height: 35px;
+}
+
+.documents {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+label {
+    margin: 3px 4px;
 }

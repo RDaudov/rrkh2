@@ -12,8 +12,9 @@
 <style>
 @import url('~/public/assets/style.css');
 .container {
-  width: 392px;
+  width: 390px;
   margin: auto;
+  padding: 0 5px;
 }
 
 section, form {

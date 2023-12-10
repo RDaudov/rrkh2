@@ -29,6 +29,13 @@ import { Burger } from '#build/components';
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    border: 2px solid #acb1b4;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.nav-left {
+    margin-left: 10px;
 }
 
 .nav-right {

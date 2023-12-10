@@ -33,6 +33,7 @@ export default {
     position: sticky;
     top: 0;
     z-index: 1;
+    margin-bottom: 10px;
 }
 
 .logo {
