@@ -7,7 +7,10 @@
     </div>
   </div>
 </template>
+<script>
+</script>
 <style>
+@import url('~/public/assets/style.css');
 .container {
   width: 392px;
   margin: auto;

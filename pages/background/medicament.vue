@@ -191,6 +191,8 @@
             <label for="">Другие</label>
         </div>
     </fieldset>
+    <p>Доза</p>
+    <textarea ></textarea>
 </template>
 <style scoped>
 .checkbox {

@@ -44,7 +44,7 @@ export default {
   width: 40px;
   height: 40px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   padding: 5px 10px;
   border: 1px solid grey;
