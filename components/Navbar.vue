@@ -2,12 +2,11 @@
 import { Burger } from '#build/components';
 <template>
   <nav class="navbar">
-    <Sidebar v-if="isActive"/>
-    <Burger @click="isActive = !isActive" class="{ active: isActive} burger" />
+    <slot/>
     <ul class="nav-left">
         <li class="item">
             <b>ПАЦИЕНТ:</b>
-            <span>Хосе  Кабалеро</span>
+            <span>Имя  Фамилия</span>
         </li>
         <li class="item">
             <b>ЭПИЗОД:</b>
@@ -25,22 +24,18 @@ import { Burger } from '#build/components';
 </nav>
 </template>
 
-<script>
-export default {
-    data() {
-    return {
-      isActive: false
-    }
-}
-
-}
-</script>
-
 <style>
 .navbar {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    border: 2px solid #acb1b4;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.nav-left {
+    margin-left: 10px;
 }
 
 .nav-right {

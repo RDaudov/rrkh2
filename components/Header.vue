@@ -4,9 +4,9 @@ import { Header } from '#build/components';
   <header class="header">
     <NuxtLink to="/" class="logo">LOGO</NuxtLink>
     <div class="burger-wrap">
-      <Burger @click="isActive = !isActive" :class="{active: isActive}"/>
+      <Burger @click="isMenuVisible = !isMenuVisible" :class="{active: isMenuVisible}"/>
     </div>
-    <main-menu class="main-menu" v-if="isActive"/>
+    <main-menu class="main-menu" v-if="isMenuVisible"/>
   </header>
 </template>
 
@@ -16,7 +16,7 @@ export default {
   components: { MainMenu },
   data() {
     return {
-      isActive: false
+      isMenuVisible: false
     }
   }
 }
@@ -33,6 +33,7 @@ export default {
     position: sticky;
     top: 0;
     z-index: 1;
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -44,7 +45,7 @@ export default {
   width: 40px;
   height: 40px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   padding: 5px 10px;
   border: 1px solid grey;

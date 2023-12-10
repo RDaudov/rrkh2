@@ -1,0 +1,36 @@
+@import url('~/node_modules/normalize.css/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Plus+Jakarta+Sans&display=swap');
+
+
+body {
+    font-size: 16px;
+    font-family: 'Play', sans-serif;;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    height: 15px;
+    padding: 5px;
+}
+
+select {
+    height: 35px;
+}
+
+.documents {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+label {
+    margin: 3px 4px;
+}
