@@ -198,5 +198,6 @@
 .checkbox {
     display: flex;
     flex-direction: column;
+    
 }
 </style>

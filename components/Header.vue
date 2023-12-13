@@ -24,9 +24,11 @@ export default {
 
 <style scoped>
 .header {
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid #acb1b4;
     background-color: #f8f9fa;
     padding: 0 20px;
     flex-wrap: wrap;
@@ -42,8 +44,6 @@ export default {
   font-size: 30px;
 }
 .burger-wrap {
-  width: 40px;
-  height: 40px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
