@@ -17,6 +17,18 @@
   padding: 0 5px;
 }
 
+@media (min-width: 768px) { 
+  .container {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1240px) { 
+  .container {
+    width: 1240px;
+  }
+}
+
 section, form {
   display: flex;
   flex-direction: column;

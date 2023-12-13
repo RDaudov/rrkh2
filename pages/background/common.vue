@@ -69,6 +69,7 @@
 <style lang="scss" scoped>
 fieldset {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 </style>

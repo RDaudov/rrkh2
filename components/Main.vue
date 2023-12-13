@@ -73,4 +73,35 @@ export default {
             transform: translateX(60%);
         }
  }
+
+ @media(min-width: 768px) {
+    .sidebar-wrapper {
+        &.active {
+            position: static;
+            transform: translateX(0%);
+            width: 30%;
+        }
+    }
+    .sidebar {
+        width: 100%;
+    }
+
+    .main-inner {
+    overflow: scroll;
+        &.active{
+            transform: translateX(0%);
+        }
+ }
+}
+
+ @media(min-width: 1240px) {
+    .sidebar-wrapper {
+        position: static;
+        transform: translateX(0%);
+        width: 30%;
+    }
+    .sidebar {
+        width: 100%;
+    }
+}
  </style>
