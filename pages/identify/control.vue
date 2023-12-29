@@ -2,11 +2,11 @@
     <form class="form" action="" method="post">
         <div class="inputgroup">
             <div class="inputwrap">
-                <label for="name">Имя</label>
+                <label class="required-input" for="name">Имя</label>
                 <input type="text" name="firtname" id="name" autocomplete="on">
             </div>
             <div class="inputwrap">
-                <label for="lastname">Фамилия</label>
+                <label class="required-input" for="lastname">Фамилия</label>
                 <input type="text" name="lastname" id="lastname">
             </div>
             <div class="inputwrap">
@@ -14,7 +14,7 @@
                 <input type="text" name="surname" id="surname">
             </div>
             <div class="inputwrap">
-                <label for="history">Номер истории</label>
+                <label class="required-input" for="history">Номер истории</label>
                 <input type="number" name="history" id="history">
             </div>
         </div>
@@ -40,18 +40,18 @@
         </div>
             <div class="inputgroup">
                 <div class="inputwrap">
-                <label for="date">Дата рождения</label>
+                <label class="required-input" for="date">Дата рождения</label>
                 <input type="date" name="date" id="date"/>
             </div>
             <div class="inputwrap"><label for="sex"></label>
-                <label for="sex">Пол</label>
+                <label class="required-input" for="sex">Пол</label>
                 <select name="sex" id="sex">
                     <option value="male">Мужской</option>
                     <option value="female" selected>Женский</option>
                 </select>
             </div>
             <div class="inputwrap">
-                <label for="race">Раса</label>
+                <label class="required-input" for="race">Раса</label>
                 <select name="race" id="race">
                     <option value="caucasoid" selected>Кавказоидная</option>
                     <option value="mongolian">Афроамерианец</option>

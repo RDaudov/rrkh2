@@ -28,6 +28,11 @@ select {
     height: 35px;
 }
 
+h4 {
+    border-bottom: 1px solid grey;
+    margin: 5px 10px;
+}
+
 .checkbox-group {
     
     display: grid;
@@ -54,6 +59,7 @@ label {
     grid-template-columns: repeat(auto-fill, minmax(238px, 1fr));
     column-gap: 1rem;
     margin: 0 5px 15px;
+    border: none;
 }
 
 .inputwrap {
@@ -77,4 +83,9 @@ label {
 .tab-link {
     padding: 5px 10px;
     margin-bottom: -1px;
+}
+
+.required-input {
+    font-weight: bold;
+    color: green;
 }

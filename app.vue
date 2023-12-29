@@ -34,10 +34,6 @@ section, form {
   flex-direction: column;
 }
 
-h4 {
-    border-bottom: 1px solid grey;
-}
-
 a {
     color: black;
     text-decoration: none;

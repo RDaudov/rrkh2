@@ -1,6 +1,8 @@
 <template>
     <form>
+
         <h4>Общие</h4>
+
         <section class="inputgroup">
             <div class="inputwrap">
                 <label for="adress">Адрес</label>
@@ -19,7 +21,9 @@
                 <input type="number" name="phone" id="phone" autocomplete="on">
             </div>
         </section>
+
         <h4>Обучение и работа</h4>
+
         <section class="inputgroup">
             <div class="inputwrap">
                 <label for="occupation">Тип занятости</label>
@@ -44,9 +48,11 @@
             <div class="inputwrap">
                 <label for="index">Индекс</label>
                 <input type="number" name="index" id="index">
-            </div> 
+            </div>
         </section>
+
         <h4>Социально-санитарные</h4>
+
         <section class="inputgroup">
             <div class="inputwrap">
                 <label for="hospital">Больница</label>
@@ -59,22 +65,24 @@
                 </select>
             </div>
         </section>
+
         <h4>Антропометрические данные</h4>
+
         <section class="inputgroup">
             <div class="inputwrap">
-                <label for="weight">Рост(кг)</label>
+                <label class="required-input" for="weight">Рост(кг)</label>
                 <input type="number" name="weight" id="weight">
             </div>
             <div class="inputwrap">
-                <label for="height">Вес(см)</label>
-             <input type="number" name="height" id="height">
+                <label class="required-input" for="height">Вес(см)</label>
+                <input type="number" name="height" id="height">
             </div>
             <div class="inputwrap">
-                <label for="bmi">ИМТ(кг/см2)</label>
+                <label class="required-input" for="bmi">ИМТ(кг/см2)</label>
                 <input type="number" name="bmi" id="bmi">
             </div>
             <div class="inputwrap">
-                <label for="surface">Поверхность тела(м2)</label>
+                <label class="required-input" for="surface">Поверхность тела(м2)</label>
                 <input type="number" name="surface" id="surface">
             </div>
         </section>
