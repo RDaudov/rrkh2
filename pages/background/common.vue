@@ -231,7 +231,7 @@
 
     <fieldset class="inputgroup">
         <div class="inputwrap">
-            <label class="mandatory" for="acv_preview">Предыдущий инсульт</label>
+            <label class="required-input" for="acv_preview">Предыдущий инсульт</label>
             <select class="form-control" id="acv_preview" name="acv_preview" title="">
                 <option value="0">Нет</option>
                 <option value="1">И</option>
@@ -267,7 +267,7 @@
     <h4>Почечная история</h4>
 
     <fieldset class="checkbox-group">
-        <legend>Хроническая болезнь почек</legend>
+        <legend class="required-input">Хроническая болезнь почек</legend>
 
         <div class="checkbox-wrap">
             <input id="chronic_kidney_disease_no" class="form-check-input" type="checkbox" name="chronic_kidney_disease_no"

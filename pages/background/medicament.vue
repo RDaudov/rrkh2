@@ -11,7 +11,7 @@
         </div>
         <div class="checkbox-wrap">
             <input type="checkbox">
-            <label for="no">IV Нитраты</label>
+            <label for="no" class="required-input">IV Нитраты</label>
         </div>
         <div class="checkbox-wrap">
             <input type="checkbox">
@@ -23,7 +23,7 @@
         </div>
         <div class="checkbox-wrap">
             <input type="checkbox">
-            <label for="no">Внутривенные инотропы</label>
+            <label for="no" class="required-input">Внутривенные инотропы</label>
         </div>
         <div class="checkbox-wrap">
             <input type="checkbox">
@@ -78,6 +78,7 @@
             <label for="no">Оксид азота</label>
         </div>
     </fieldset>
+
     <fieldset class="checkbox-group">
         <legend>Антикоагулянтное лекарство</legend>
        <div class="checkbox-wrap">
@@ -109,6 +110,7 @@
             <label for="no">Гепарин низкомолекулярный</label>
        </div>
     </fieldset>
+
     <fieldset class="checkbox-group">
         <legend>Антитромбоцитарные препараты</legend>
         <div class="checkbox-wrap">
@@ -140,8 +142,9 @@
             <label for="">Анти IIB-IIIA</label>
         </div>
     </fieldset>
+
     <fieldset class="checkbox-group">
-        <legend>Кардиологические препараты</legend>
+        <legend class="required-input">Другие лекарства</legend>
         <div class="checkbox-wrap">
             <input type="checkbox" name="" id="">
             <label for="">Нет</label>
@@ -160,7 +163,7 @@
         </div>
         <div class="checkbox-wrap">
             <input type="checkbox" name="" id="">
-            <label for="">Бронходилататоры</label>
+            <label for="" class="required-input">Бронходилататоры</label>
         </div>
         <div class="checkbox-wrap">
             <input type="checkbox" name="" id="">
@@ -172,11 +175,11 @@
         </div>
         <div class="checkbox-wrap">
             <input type="checkbox" name="" id="">
-            <label for="">Парентеральные антибиотики</label>
+            <label for="" class="required-input">Парентеральные антибиотики</label>
         </div>
         <div class="checkbox-wrap">
             <input type="checkbox" name="" id="">
-            <label for="">Домашний кислород</label>
+            <label for="" class="required-input">Домашний кислород</label>
         </div>
         <div class="checkbox-wrap">
             <input type="checkbox" name="" id="">
@@ -184,7 +187,7 @@
         </div>
         <div class="checkbox-wrap">
             <input type="checkbox" name="" id="">
-            <label for="">Иммунодепрессанты</label>
+            <label for="" class="required-input">Иммунодепрессанты</label>
         </div>
         <div class="checkbox-wrap">
             <input type="checkbox" name="" id="">

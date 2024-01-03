@@ -50,7 +50,7 @@ export default {
     top: 0;
     z-index: 99;
     width: 100%;
-    height: calc(d100vh - 80px);
+    height: calc(100dvh - 80px);
     display: flex;
     background-color: rgba($color: #000000, $alpha: 0);
     transform: translateX(-100%);
