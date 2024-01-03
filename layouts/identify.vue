@@ -1,8 +1,8 @@
 <template>
     <div class="tabs">
-        <NuxtLink class="link" to="/identify/control">Основные</NuxtLink>
-        <NuxtLink class="link" to="/identify/registration">Регистрация</NuxtLink>
-        <NuxtLink class="link" to="/identify/episode">Эпизод</NuxtLink>
+        <NuxtLink class="tab-link" to="/identify/control">Основные</NuxtLink>
+        <NuxtLink class="tab-link" to="/identify/registration">Регистрация</NuxtLink>
+        <NuxtLink class="tab-link" to="/identify/episode">Эпизод</NuxtLink>
     </div>
     <slot/> 
 </template>

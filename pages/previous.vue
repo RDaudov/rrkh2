@@ -1,5 +1,5 @@
 <template>
-    <NuxtLayout name="interventions">
+    <NuxtLayout name="previous">
         <NuxtPage/>
     </NuxtLayout>
 </template>

@@ -50,7 +50,7 @@ export default {
     top: 0;
     z-index: 99;
     width: 100%;
-    height: 100vh;
+    height: calc(100dvh - 80px);
     display: flex;
     background-color: rgba($color: #000000, $alpha: 0);
     transform: translateX(-100%);
@@ -65,7 +65,7 @@ export default {
 
  .main-inner {
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100dvh - 80px);
     transform: translateX(0%);
     transition: .5s;
     overflow: scroll;

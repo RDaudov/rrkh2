@@ -6,7 +6,7 @@ import { Header } from '#build/components';
     <div class="burger-wrap">
       <Burger @click="isMenuVisible = !isMenuVisible" :class="{active: isMenuVisible}"/>
     </div>
-    <main-menu class="main-menu" v-if="isMenuVisible"/>
+    <main-menu class="main-menu" v-show="isMenuVisible"/>
   </header>
 </template>
 
@@ -28,10 +28,10 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
     border: 2px solid #acb1b4;
     background-color: #f8f9fa;
     padding: 0 20px;
-    flex-wrap: wrap;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -52,6 +52,19 @@ export default {
   border-radius: 5px;
 }
 .main-menu {
-  flex: 1 0 100%;
+  flex: 1 1 100%;
+}
+
+@media(min-width: 1240px) {
+
+  .burger-wrap {
+    display: none;
+  }
+
+  .main-menu {
+    display: flex !important;
+    justify-content: space-between;
+    margin-top: 8px;
+  }
 }
 </style>

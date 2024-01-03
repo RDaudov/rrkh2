@@ -11,7 +11,7 @@
 <script>
 </script>
 <style>
-@import url('~/public/assets/style.css');
+@import url('~/public/assets/index.scss');
 .container {
   width: 390px;
   margin: auto;
@@ -33,10 +33,6 @@
 section, form {
   display: flex;
   flex-direction: column;
-}
-
-h4 {
-    border-bottom: 1px solid grey;
 }
 
 a {
