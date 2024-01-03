@@ -17,11 +17,19 @@
 
 <style lang="scss" scoped>
 
+.link {
+  margin-bottom: 20px;
+}
+
 @media (min-width: 1240px) {
   .nav-item {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+  }
+
+  .link {
+    margin: 0;
   }
 }
 </style>

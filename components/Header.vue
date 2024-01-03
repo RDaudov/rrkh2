@@ -1,7 +1,7 @@
 
 import { Header } from '#build/components';
 <template>
-  <header class="header">
+  <header class="header" :class="{collapsed: isMenuVisible}">
     <NuxtLink to="/" class="logo">LOGO</NuxtLink>
     <div class="burger-wrap">
       <Burger @click="isMenuVisible = !isMenuVisible" :class="{active: isMenuVisible}"/>
@@ -28,6 +28,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
     border: 2px solid #acb1b4;
     background-color: #f8f9fa;
@@ -53,9 +54,19 @@ export default {
 }
 .main-menu {
   flex: 1 1 100%;
+  flex-basis: 100%;
+  background-color: #f8f9fa;
+  border: 2px solid #acb1b4;
+  border-top: none;
+  margin: 0 -22px;
+  padding: 5px 10px;
 }
 
 @media(min-width: 1240px) {
+
+  .header {
+    flex-wrap: nowrap;
+  }
 
   .burger-wrap {
     display: none;
@@ -64,7 +75,9 @@ export default {
   .main-menu {
     display: flex !important;
     justify-content: space-between;
-    margin-top: 8px;
+    margin: 8px 0 0;
+    padding: 0;
+    border: none;
   }
 }
 </style>
