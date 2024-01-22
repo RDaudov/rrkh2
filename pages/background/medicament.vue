@@ -194,8 +194,10 @@
             <label for="">Другие</label>
         </div>
     </fieldset>
-    <p>Доза</p>
-    <textarea ></textarea>
+    <div class="textarea-wrap">
+        <label for="backMedicationDose">Доза</label>
+        <textarea class="form-control" id="backMedicationDose" name="backMedicationDose" title="" rows="3"></textarea>
+    </div>
 </template>
 <style scoped>
 .checkbox {
