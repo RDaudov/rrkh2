@@ -25,5 +25,5 @@ jobs:
         script: |
           cd /var/www/rrkh2/
           git pull origin main
-          git status
-          npm install --only=prod
+          npm run build
+          pm2 restart .output/server/index.mjs
