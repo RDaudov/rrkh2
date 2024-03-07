@@ -7,7 +7,7 @@
         <li class="link"><NuxtLink href="/clinic">Клиника</NuxtLink></li>
         <li class="link"><NuxtLink href="/exploration">Исследования</NuxtLink></li>
         <li class="link"><NuxtLink href="/diagnostics">Диагнозы</NuxtLink></li>
-        <li class="link"><NuxtLink href="7">Операция</NuxtLink></li>
+        <li class="link"><NuxtLink href="/surgery">Операция</NuxtLink></li>
         <li class="link"><a href="8">Перфузия / Анестезия</a></li>
         <li class="link"><a href="9">UVI / UCQ</a></li>
         <li class="link"><a href="10">Выписка</a></li>
