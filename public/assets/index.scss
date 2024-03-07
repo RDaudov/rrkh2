@@ -90,3 +90,14 @@ label {
     color: green;
 }
 
+.textarea-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}
+
+
+.textarea {
+    width: 100%;
+}

@@ -4,10 +4,10 @@
         <li class="link"><NuxtLink to="/identify">Данные</NuxtLink></li>
         <li class="link"><NuxtLink to="/background">Предшествующие данные</NuxtLink></li>
         <li class="link"><NuxtLink to="/previous">Ранние вмешательства</NuxtLink></li>
-        <li class="link"><a href="4">Клиника</a></li>
-        <li class="link"><a href="5">Исследования</a></li>
-        <li class="link"><a href="6">Диагнозы</a></li>
-        <li class="link"><a href="7">Операция</a></li>
+        <li class="link"><NuxtLink href="/clinic">Клиника</NuxtLink></li>
+        <li class="link"><NuxtLink href="/exploration">Исследования</NuxtLink></li>
+        <li class="link"><NuxtLink href="/diagnostics">Диагнозы</NuxtLink></li>
+        <li class="link"><NuxtLink href="/surgery">Операция</NuxtLink></li>
         <li class="link"><a href="8">Перфузия / Анестезия</a></li>
         <li class="link"><a href="9">UVI / UCQ</a></li>
         <li class="link"><a href="10">Выписка</a></li>
