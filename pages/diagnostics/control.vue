@@ -30,6 +30,9 @@
                 <option value="6">5</option>
             </select>
         </div>
-        
     </fieldset>
+    <div class="textarea-wrap">
+            <label for="backMedicationDose">Хирургическое показание</label>
+            <textarea class="form-control" id="backMedicationDose" name="backMedicationDose" title="" rows="3"></textarea>
+    </div>
 </template>
