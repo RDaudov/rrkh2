@@ -27,4 +27,4 @@ jobs:
           git pull origin main
           git status
           npm i --only=prod prebuild-install node-rfc
-          pm2 restart index
+          npm run build
