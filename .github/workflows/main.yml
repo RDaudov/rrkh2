@@ -26,5 +26,5 @@ jobs:
           cd ~/node
           git pull origin main
           git status
-          npm i --only=prod prebuild-install node-rfc
+          npm i prebuild-install node-rfc
           npm run build
