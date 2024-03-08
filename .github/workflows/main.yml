@@ -23,6 +23,4 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         script: |
-          cd node
-          git pull origin main
           pm2 restart
