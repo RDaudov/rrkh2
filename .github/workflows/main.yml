@@ -23,9 +23,8 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         script: |
-          cd /var/www/rrkh2/
-          git pull origin main
+          cd rrkh2
+          git pull origin master
           git status
           npm install --only=prod
-          npm run build
-          pm2 restart .output/server/index.mjs
+          pm2 restart
