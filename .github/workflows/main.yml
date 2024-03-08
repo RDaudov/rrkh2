@@ -27,4 +27,3 @@ jobs:
           git pull origin main
           git status
           npm i prebuild-install node-rfc
-          npm run build
