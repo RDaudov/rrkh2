@@ -24,3 +24,4 @@ jobs:
         port: 22
         script: |
           cd ~/node
+          git pull origin main
