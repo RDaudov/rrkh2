@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="container">
-      123sdafdasafsd
       <NuxtLayout>
         <NuxtPage/>
       </NuxtLayout>
