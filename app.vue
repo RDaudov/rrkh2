@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="container">
+      123
       <NuxtLayout>
         <NuxtPage/>
       </NuxtLayout>
