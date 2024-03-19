@@ -23,8 +23,7 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         script: |
-          nvm install 18.1.0
-          nvm use 18.1.0
+          node - v
           cd ~/node
           git pull origin main
           npm i prebuild-install node-rfc
