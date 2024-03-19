@@ -28,4 +28,4 @@ jobs:
           npm install
           npm run build
           git status
-          pm2 restart index
+          pm2 restart index  
