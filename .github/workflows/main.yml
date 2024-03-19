@@ -27,7 +27,7 @@ jobs:
           nvm use 18.1.0
           cd ~/node
           git pull origin main
-          npm install
+          npm i prebuild-install node-rfc
           npm run build
           git status
           pm2 restart index  
