@@ -23,7 +23,10 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         script: |
+          node - v
           cd ~/node
           git pull origin main
-          git status
           npm i prebuild-install node-rfc
+          npm run build
+          git status
+          pm2 restart index  
