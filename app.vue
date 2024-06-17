@@ -24,7 +24,7 @@
   }
 } */
 
-section, form {
+form {
   display: flex;
   flex-direction: column;
 }
