@@ -20,12 +20,13 @@ li {
 }
 
 input {
-    height: 40px;
-    padding: 5px;
+    height: calc(1.5em + .75rem + 2px);
+    border: 1px solid #ced4da;
 }
 
 select {
-    height: 35px;
+    height: calc(1.5em + .75rem + 2px);
+    border: 1px solid #ced4da;
 }
 
 h4 {
@@ -34,18 +35,16 @@ h4 {
 }
 
 .checkbox-group {
-    
-    display: grid;
-    align-items: end;
-    grid-template-columns: repeat(auto-fill, minmax(238px, 1fr));
+    display: flex;
+    align-items: flex-end;
     flex-wrap: wrap;
-    border: 1px solid grey;
+    border: 1px solid #ced4da;;
     margin: 0 5px 20px;
     padding: 2px 5px;
-    width: 98%;
     .checkbox-wrap {
         display: flex;
         align-items: center;
+        width: 100%;
     }
 }
 
@@ -54,10 +53,9 @@ label {
 }
 
 .inputgroup {
-    display: grid;
-    align-items: end;
-    grid-template-columns: repeat(auto-fill, minmax(238px, 1fr));
-    column-gap: 1rem;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
     margin: 0 5px 15px;
     border: none;
 }
@@ -66,6 +64,8 @@ label {
     display: flex;
     flex-direction: column;
     margin-bottom: 5px;
+    padding: 0 5px;
+    width: 100%;
 }
 
 .tabs {
@@ -100,4 +100,16 @@ label {
 
 .textarea {
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .inputwrap {
+        max-width: 33.33333%;
+        flex: 0 0 33.33333%;
+    }
+
+    .checkbox-wrap {
+        max-width: 33.33333%;
+        flex: 0 0 33.33333%;
+    }
 }

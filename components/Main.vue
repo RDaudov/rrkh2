@@ -21,18 +21,10 @@ export default {
     methods: {
         showSidebar(event) {
             if(event.target.classList.contains('burger')) {
-                this.isSidebarVisible = true
+                this.isSidebarVisible = !this.isSidebarVisible
                 document.querySelector('#sidebar').classList.toggle('active')
-                document.querySelector('.main-inner').classList.toggle('active')
             }
         },
-        hideSidebar(event) {
-            if(event.target.classList.contains("sidebar-wrapper")) {
-                this.isSidebarVisible = false
-                document.querySelector('#sidebar').classList.toggle('active')
-                document.querySelector('.main-inner').classList.toggle('active')
-            }
-        }
     }
 }
 </script>
@@ -42,66 +34,41 @@ export default {
     display: flex;
     overflow: hidden;
     position: relative;
+    min-width: 100vw;
  }
 
  .sidebar-wrapper {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 99;
-    width: 100%;
     height: calc(100dvh - 80px);
     display: flex;
     background-color: rgba($color: #000000, $alpha: 0);
-    transform: translateX(-100%);
+    margin-left: -15rem;
     transition: 
-    transform .5s, 
+    margin .5s, 
     background-color 1s;
     &.active{
-            transform: translateX(0%);
+            margin-left: 0;
             background-color: rgba($color: #000000, $alpha: .3);
         }
  }
 
  .main-inner {
     width: 100%;
+    min-width: 100vw;
     height: calc(100dvh - 80px);
-    transform: translateX(0%);
-    transition: .5s;
     overflow: scroll;
-        &.active{
-            transform: translateX(60%);
-        }
  }
 
  @media(min-width: 768px) {
     .sidebar-wrapper {
+        margin-left: 0;
         &.active {
-            position: static;
-            transform: translateX(0%);
-            width: 30%;
+            margin-left: -15rem;
         }
-    }
-    .sidebar {
-        width: 100%;
     }
 
     .main-inner {
     overflow: scroll;
-        &.active{
-            transform: translateX(0%);
-        }
+    min-width: 0;
  }
-}
-
- @media(min-width: 1240px) {
-    .sidebar-wrapper {
-        position: static;
-        transform: translateX(0%);
-        width: 30%;
-    }
-    .sidebar {
-        width: 100%;
-    }
 }
  </style>

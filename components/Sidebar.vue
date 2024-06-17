@@ -21,9 +21,9 @@
 
 <style lang="scss" scoped>
 .sidebar {
-  border: 2px solid #acb1b4;
+  border: 1px solid #ced4da;
   background-color: #F6F9FB;
-  width: 60%;
+  width: 15rem;
 }
 
 .menu {
@@ -35,12 +35,15 @@
   align-items: center;
   height: 40px;
   color: #6B6B6B;
-  border-top: 2px solid #acb1b4;
+  border: 1px solid #ced4da;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: -1px;
   &:first-child {
     border-top: none;
   }
   &:last-child {
-    border-bottom: 2px solid #acb1b4;
+    border: 1px solid #ced4da;
   }
   
 }
@@ -50,9 +53,10 @@
   align-items: center;
   width: 100%;
   height: 40px;
-  color: #6B6B6B;
-  background-color: #cacdcf;
+  color: black;
+  background-color: #dae0e5;
   font-weight: bold;
+  border: 1px solid #c0c5cb;
 }
 
 .buttons {

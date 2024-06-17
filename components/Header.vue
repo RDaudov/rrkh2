@@ -30,13 +30,13 @@ export default {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    border: 2px solid #acb1b4;
+    border: 1px solid #ced4da;
     background-color: #f8f9fa;
     padding: 0 20px;
     position: sticky;
     top: 0;
     z-index: 1;
-    margin-bottom: 10px;
+    margin-bottom: -1px;
 }
 
 .logo {

@@ -65,7 +65,6 @@
 .documents {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid grey;
     margin: 0 5px 20px;
     padding: 2px 5px;
     width: 98%;

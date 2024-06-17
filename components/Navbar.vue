@@ -29,7 +29,7 @@ import { Burger } from '#build/components';
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border: 2px solid #acb1b4;
+    border: 1px solid #ced4da;
     padding: 5px 10px;
     margin-bottom: 20px;
 }
